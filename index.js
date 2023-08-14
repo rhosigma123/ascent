@@ -5,16 +5,7 @@ const path = require("path");
 const app = express();
 const port = process.env.PORT || 3000;
 
-var options = {
-    viewEngine: {
-    extname: '.hbs',                      
-    layoutsDir: 'views/layouts/',                      
-    defaultLayout : 'template.hbs',                      
-    partialsDir : 'views/partials/'                  
-   },
-   viewPath: 'views/emails/',
-   extName: '.hbs'
-};
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'assets')));
 
