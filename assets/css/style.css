@@ -98,6 +98,9 @@ img {
   .section-padding {
     padding: 70px 0;
   }
+  .icon-bar {
+    display: none;
+}
 }
 
 /*** contact form error handling ***/
@@ -1929,7 +1932,7 @@ img {
 }
 
 .blog-sidebar ul li {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -2031,7 +2034,6 @@ img {
 }
 
 .blog-sidebar .recent-post-widget .details {
-  width: 68%;
   float: right;
 }
 
@@ -2295,6 +2297,7 @@ img {
     position: absolute;
     left: 0;
     top: 130%;
+    padding: 15px;
     margin-top: 20px;
     z-index: 10;
     visibility: hidden;
@@ -2477,6 +2480,8 @@ img {
 @media screen and (min-width: 992px) {
   .site-header .navbar-header .open-btn {
     display: none;
+    background-color: red!important;
+    color: white;
   }
   .site-header #navbar .close-navbar {
     display: none;
@@ -2484,9 +2489,7 @@ img {
 }
 
 @media (max-width: 991px) {
-  .site-header {
-    /* class for show hide navigation */
-  }
+
   .site-header .container {
     width: 100%;
   }
@@ -6257,14 +6260,13 @@ img {
 }
 
 .blog-single-content .post .post-body p {
-  font-size: 18px;
-  font-size: 1.2rem;
+  font-size: 15px;
   margin-bottom: 1.2em;
 }
 
 @media (max-width: 991px) {
   .blog-single-content .post .post-body p {
-    font-size: 16px;
+    font-size: 15px;
     font-size: 1.06667rem;
   }
 }
@@ -6724,3 +6726,11 @@ iframe.yout-tube-video {
   width: 100%!important;
   height: 100%!important;
   }
+
+  i.fa.fa-adjust {
+    margin-right: 11px;
+}
+
+a.icon {
+  color: white;
+}

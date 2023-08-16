@@ -91,6 +91,30 @@ app.get("/blog",(req,res)=>{
     res.render('blog')
 });
 
+app.get("/porta-office-cabin-manufacturers-in-solapur",(req,res)=>{
+    res.render('porta-office-cabin-manufacturers-in-solapur')
+});
+
+app.get("/everything-you-need-to-know-about-shipping-container-homes",(req,res)=>{
+    res.render('everything-you-need-to-know-about-shipping-container-homes')
+});
+
+app.get("/essential-guide-to-shipping-container-home-design",(req,res)=>{
+    res.render('essential-guide-to-shipping-container-home-design')
+});
+
+app.get("/how-portable-cabins-and-modular-office-spaces-benefit-along",(req,res)=>{
+    res.render('how-portable-cabins-and-modular-office-spaces-benefit-along')
+});
+
+app.get("/highest-10-benefits-of-using-portable-office-on-site",(req,res)=>{
+    res.render('highest-10-benefits-of-using-portable-office-on-site')
+});
+
+app.get("/7-advantages-of-building-prefabricated-site-offices",(req,res)=>{
+    res.render('7-advantages-of-building-prefabricated-site-offices')
+});
+
 app.get("/portfolio",(req,res)=>{
     res.render('portfolio')
 });
