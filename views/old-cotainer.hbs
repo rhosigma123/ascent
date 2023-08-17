@@ -109,22 +109,20 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="contact-form mt-5">
-                            <form method="post" id="contact-form" class="form row contact-validation-active">
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <label for="name">Full Name</label>
-                                    <input type="text" class="form-control" id="name" name="name">
+                            <form method="post" id="contact-form" class="form row contact-validation-active" autocomplete="off">
+                                <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" name="email">
+                                <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Email">
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <label for="phone">Phone No</label>
-                                    <input type="text" class="form-control" id="phone" name="phone">
+                                <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
                                 </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <label for="business">Message</label>
-                                    <textarea class="form-control" name="message" cols="90" rows="5"></textarea>
+                                <div class="col-lg-12 col-md-12 col-sm-12 mt-4">
+                                    <textarea class="form-control" placeholder="Leave Message" name="message" cols="90"
+                                        rows="5"></textarea>
                                 </div>
                                 <div class="col col-xs-12 submit-btn">
                                     <button type="submit">Submit</button>

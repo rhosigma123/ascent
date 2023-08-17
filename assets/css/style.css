@@ -96,7 +96,7 @@ img {
 
 @media (max-width: 767px) {
   .section-padding {
-    padding: 70px 0;
+    padding: 30px 0;
   }
   .icon-bar {
     display: none;
@@ -599,19 +599,20 @@ img {
 
 .page-title .breadcrumb li {
   font-size: 18px;
-  font-size: 1.2rem;
   margin-right: 5px;
+  color: var(--primary-color);
 }
 
 @media (max-width: 991px) {
   .page-title .breadcrumb li {
-    font-size: 15px;
-    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 600;
   }
 }
 
 .page-title .breadcrumb li a {
   color: #fff;
+  color: var(--primary-color);
 }
 
 .page-title .breadcrumb li a:hover {
@@ -2644,6 +2645,7 @@ img {
   .header-style-1 .topbar .contact-info li, .header-style-2 .topbar .contact-info li, .header-style-3 .topbar .contact-info li, .header-style-4 .topbar .contact-info li, .header-style-5 .topbar .contact-info li, .header-style-6 .topbar .contact-info li {
     display: block;
     text-align: center;
+    color: var(--font-color);
   }
 }
 
@@ -3678,7 +3680,7 @@ img {
 
 @media (max-width: 767px) {
   .site-footer .upper-footer {
-    padding: 70px 0 30px;
+    padding: 30px 0 30px;
   }
 }
 
@@ -4796,10 +4798,11 @@ img {
 
 .contact-section form button, .contact-pg-content form button {
   font-family: "Poppins", sans-serif;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   width: 100%;
   height: 38px;
   line-height: 38px;
+  border: 1px solid white !important;
   font-size: 16px;
   font-size: 1.06667rem;
   font-weight: 600;
@@ -4817,7 +4820,9 @@ img {
 }
 
 .contact-section form button:hover, .contact-pg-content form button:hover {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--secondary-color) !important;
 }
 
 .contact-section form .submit-btn, .contact-pg-content form .submit-btn {
@@ -6740,4 +6745,5 @@ iframe.yout-tube-video {
 
 a.icon {
   color: white;
+  font-size: 18px;
 }
